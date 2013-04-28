@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CONFIG
+   xmlns="http://www.drexel.edu/INFO613/Project/Config"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.drexel.edu/INFO613/Project/Config Config.xsd">
+   <!-- Specify the username to use to connect to the Oracle Database -->
+   <USER>dco28</USER>
+   <!-- Specify the password for the above username to use to connect to the Oracle Database -->
+   <PASS>P455w0rd</PASS>
+</CONFIG>

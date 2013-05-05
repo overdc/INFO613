@@ -29,18 +29,23 @@ INFO613_Overmiller_Kambic/setupProject.sh
 
 To install the project perform the following steps:
 
-1) Copy the INFO613_Overmiller_Kambic.tar.gz file to your home directory on linux.cis.drexel.edu
+1) Log into linux.cis.drexel.edu with your username and password
 
-2) Untar the INFO613_Overmiller_Kambic.tar.gz file
+2) Copy the INFO613_Overmiller_Kambic.tar.gz file to your home directory
+
+3) Change your current directory to your home directory, if needed
+	>> cd ~
+
+4) Untar the INFO613_Overmiller_Kambic.tar.gz file
 	>> tar xzf INFO613_Overmiller_Kambic.tar.gz
 
-3) Run the installer script to setup the system.
+5) Run the installer script to setup the system.
    The USERNAME should be the username you use to connect to the database (without @ike)
    The PASSWORD should be the password you use with that username to connect to the database
 	>> cd INFO613_Overmiller_Kambic
 	>> ./setupProject.sh USERNAME PASSWORD
 
-4) You can now go to http://linux.cis.drexel.edu:8080/~USERNAME to see the project work.
+6) You can now go to http://linux.cis.drexel.edu:8080/~USERNAME to see the project work.
    
    There will be three files: AddMovie.jsp, FirstQuery.jsp, and SecondQuery.jsp.
    There will also be one directory present: movies with the movies.dtd file within it.

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Define the schema with the CONFIG namespace and default schema namespace -->
+<!-- make the target namespace the CONFIG namespace -->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+   xmlns:CONFIG="http://www.drexel.edu/INFO613/Project/Config"
+   targetNamespace="http://www.drexel.edu/INFO613/Project/Config"
+   elementFormDefault="qualified">
+   <!-- Define CONFIG to be the root element -->
+   <element name="CONFIG">
+      <complexType>
+         <sequence>
+            <!-- Create a USER element of type string to enter the username for the database -->
+            <element name="USER" type="string" />
+            <!-- Create a PASS element of type string to enter the password for the database -->
+            <element name="PASS" type="string" />
+         </sequence>
+      </complexType>
+   </element>
+</schema>

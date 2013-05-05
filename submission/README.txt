@@ -5,11 +5,11 @@ Project
 
 This document outlines the installation procedure for setting up the INFO613 Database Project.
 
-List of files included in the delivery:
+List of files included in this delivery:
 README.txt
 INFO613_Overmiller_Kambic.tar.gz
 
-List of included within INFO613_Overmiller_Kambic.tar.gz:
+List of files included within INFO613_Overmiller_Kambic.tar.gz:
 INFO613_Overmiller_Kambic/Actor.java
 INFO613_Overmiller_Kambic/AddMovie.java
 INFO613_Overmiller_Kambic/AddMovie.jsp
@@ -27,18 +27,20 @@ INFO613_Overmiller_Kambic/SecondQuery.java
 INFO613_Overmiller_Kambic/SecondQuery.jsp
 INFO613_Overmiller_Kambic/setupProject.sh
 
-To install the system perform the following steps:
+To install the project perform the following steps:
 
-1) Untar the INFO613_Overmiller_Kambic.tar.gz file
+1) Copy the INFO613_Overmiller_Kambic.tar.gz file to your home directory on linux.cis.drexel.edu
+
+2) Untar the INFO613_Overmiller_Kambic.tar.gz file
 	>> tar xzf INFO613_Overmiller_Kambic.tar.gz
 
-2) Run the installer script to setup the system.
+3) Run the installer script to setup the system.
    The USERNAME should be the username you use to connect to the database (without @ike)
    The PASSWORD should be the password you use with that username to connect to the database
 	>> cd INFO613_Overmiller_Kambic
 	>> ./setupProject.sh USERNAME PASSWORD
 
-3) You can now go to http://linux.cis.drexel.edu:8080/~USERNAME to see the project work.
+4) You can now go to http://linux.cis.drexel.edu:8080/~USERNAME to see the project work.
    
    There will be three files: AddMovie.jsp, FirstQuery.jsp, and SecondQuery.jsp.
    There will also be one directory present: movies with the movies.dtd file within it.
@@ -54,7 +56,7 @@ To install the system perform the following steps:
    was in this current directory. If there is a failure, the page will report this failure.
 
 
-That is all you need to know to run the Database project. If you have any questions you can send us an email:
+That is all you need to do to run the Database project. If you have any questions you can send us an email:
 	Justin Kambic: jek5104@gmail.com
 	Dustin Overmiller: overmillerdc@gmail.com
 

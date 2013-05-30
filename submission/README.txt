@@ -50,10 +50,10 @@ To install the project perform the following steps:
    There will be three files: AddMovie.jsp, FirstQuery.jsp, and SecondQuery.jsp.
    There will also be one directory present: movies with the movies.dtd file within it.
 
-   If you select the FirstQuery.jsp file it will display a list of movie titls and genres currently in 
+   If you select the FirstQuery.jsp file it will display a list of movie titles and genres currently in 
    the database that were directed by Steven Spielberg and will show the query used to obtain those results.
    
-   If you select the SecondQuery.jsp file it will display a list of movie titls and genres currently in 
+   If you select the SecondQuery.jsp file it will display a list of movie titles and genres currently in 
    the database that were acted by Julia Roberts and will show the query used to obtain those results.
 
    If you select the AddMovie.jsp file it will allow you to select a movie XML file to add to the database.

@@ -60,6 +60,8 @@ To install the project perform the following steps:
    If successful it will add it to the database and upload the file to the movies subdirectory that 
    was in this current directory. If there is a failure, the page will report this failure.
 
+An example project can be found at http://linux.cis.drexel.edu:8080/~dco28.
+This project already has some movies added to the database such that both queries will produce results.
 
 That is all you need to do to run the Database project. If you have any questions you can send us an email:
 	Justin Kambic: jek5104@gmail.com

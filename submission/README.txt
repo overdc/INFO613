@@ -8,6 +8,8 @@ This document outlines the installation procedure for setting up the INFO613 Dat
 List of files included in this delivery:
 README.txt
 INFO613_Overmiller_Kambic.tar.gz
+INFO613_Final_Project.docx
+INFO613_Final_Project.pdf
 
 List of files included within INFO613_Overmiller_Kambic.tar.gz:
 INFO613_Overmiller_Kambic/Actor.java
